@@ -1,0 +1,203 @@
+/*top*/
+.weball-tops{
+    padding:150px 200px;
+    text-align: center;
+} 
+.weball-top{
+    max-width: 1000px;
+    margin-bottom:100px;
+}
+.top-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-info img{
+    width: 45%;
+    box-sizing: border-box;
+    margin-right: 80px;
+    margin-left: 50px; 
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 10px;
+    float: left;
+}
+.web-text{
+    width: 55%;
+    box-sizing: border-box;
+    text-align: left;
+    color: rgb(73, 74, 80);
+}
+.web-text h3{
+    font-size:40px;
+}
+.web-text p{
+    font-size: 20px;
+    color: #516777;
+}
+.weball-info{
+    text-align: center;
+}
+.weball-caption{
+    float: center;
+    color: rgb(73, 74, 80);
+}
+.weball-site{
+    padding:30px 50px 0px 0px ;  
+    float: right;
+}
+/*middle*/
+.middle-images{
+    max-width: 1000px;
+    margin-bottom:100px;
+    padding:0px 200px 100px 200px;  
+    text-align: center;
+}
+.middle-image{
+    display: flex;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    justify-content: space-around;
+}
+.middle-image img{
+    width: 31%; 
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 10px;
+}
+.middle-writing{
+    max-width: 1000px;
+    padding:0px 200px ;
+    text-align: center;
+}
+
+
+/*table*/
+table {
+    margin:50px auto;
+    border-collapse: collapse;
+    line-height:1.7;
+  }
+  
+table td {
+    border-top: 1px solid #adc5d8;
+    border-bottom: 1px solid #adc5d8;
+  }
+  
+  /* 見出し */
+table td:first-child {
+      text-align: center;
+      padding: 20px 0px 20px 30px;
+      font-size: 16px;
+      color: #516777;
+      text-align: left;
+      width: 130px; 
+  }
+  
+  /* 内容 */
+table td:last-child {
+    padding: 20px;
+    border-bottom: 1px solid #adc5d8;
+    font-size: 16px;
+    color: rgb(73, 74, 80);
+    text-align: left;
+  }
+  
+.border {
+      border-left: 1px solid #adc5d8;
+      padding-left: 20px;   
+      display: block;
+  }
+
+
+/*last*/
+.weball-last{
+    max-width: 1000px;
+    margin-bottom:500px;
+    padding:0px 200px;  
+    text-align: center;
+}
+.last-images{
+    margin-bottom: 100px;
+    max-width: 1000px;
+}
+.last-image{
+    display: flex;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    justify-content: space-around;
+}
+.last-image img{
+    width: 48%;
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 10px;
+}
+/*about*/
+.aboutall-tops{
+    padding:150px 200px 0px 200px;
+    text-align: center;
+} 
+.aboutall-top{
+    max-width: 1000px;
+}
+.top-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.aboutimage{
+    filter:drop-shadow(-1px 5px 15px #adc5d8);
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    padding:30px 30px;
+}
+.about-text{
+    width: 70%; 
+    box-sizing: border-box;
+    text-align: left;
+    color: rgb(73, 74, 80);
+}
+.about-text h3{
+    font-size:40px;
+}
+.about-text h4{
+    font-size: 15px; 
+}
+.about-text p{
+    font-size: 20px;
+    color: #516777;
+}
+.about-infos{
+    padding:40px 200px;
+    text-align: center;
+}
+/*skill*/
+.design-caption{
+    font-size: 25px;    
+    margin: 30px 0px; 
+    color: #6c8ba2;
+    text-align: left;
+    font-style: bold;
+}
+.about-skills{
+    max-width: 1000px;
+}
+.about-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.about-skill img{
+    width: 35%;
+}
+.about-skill p{
+    width: 65%;
+    color: rgb(73, 74, 80);
+    text-align: left;
+    
+}
+.about-writing{
+    padding:40px 200px;
+    text-align: center;
+}
