@@ -43,7 +43,7 @@
 }
 .weball-site{
     padding:30px 50px 0px 0px ;  
-    float: right;
+
 }
 /*middle*/
 .middle-images{
@@ -200,4 +200,96 @@ table td:last-child {
 .about-writing{
     padding:40px 200px;
     text-align: center;
+}
+/*desinall*/
+.website-all-container{
+    padding:40px 200px;
+    text-align: center;
+}
+.website-area{
+    display: flex;
+    justify-content: space-around;
+}
+.websits{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.website img{
+    width: 300px;
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 5px; 
+}
+
+.ma-all-container{
+    padding:40px 200px;
+    text-align: center;
+}
+.ma-area{
+    display: flex;
+    justify-content: space-around;
+}
+.mas{
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.ma img{
+    width: 200px;
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 5px;
+}
+
+
+.logo-all-container{
+    padding:40px 200px;
+    text-align: center;
+}
+.logo-area{
+    display: flex;
+    justify-content: space-around;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 200px; 
+    box-shadow: 0 4px 15px 0 #adc5d8;
+    border-radius: 5px;
+}
+
+
+.section-title{
+    font-size: 35px;     
+    color: #6c8ba2;
+    text-align: left;
+    font-style: bold;
+    padding: 10px 0;
+}
+
+.website-all-title{
+    padding:80px 200px;
+}
+.top-color{
+    color: #f3a32a;
+}
+.section-title-top{
+    font-size: 35px; 
+    color: #6c8ba2;
+    text-align: left;
+    font-style: bold;
+    padding-top: 50px;  
+}
+.design-name{   
+    font-size: 18px;    
+    color:rgb(73, 74, 80);
+    text-align: left;
+}
+.design-tool{
+    color: rgb(149, 149, 149); 
+    text-align: left;
+}
+.design-info{
+    color: rgb(149, 149, 149); 
+    text-align: left;
+    padding: 20px 0;
 }
