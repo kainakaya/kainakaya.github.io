@@ -9,7 +9,7 @@ html {
 body{
     background-image: url(image/top/background.png);
     font-family: "Zen Kaku Gothic New";
-
+    background-size: cover;
 }
 footer{
     width: 100%;
@@ -43,7 +43,6 @@ footer{
     background-size: cover; 
     height: 680px;
     text-align: center;
-    width: 100%;    
 }
 .section-top img{
     width: 300px; 
@@ -58,22 +57,18 @@ footer{
     padding:40px 200px;
     text-align: center;
 }
-.designs{
-    max-width: 1000px;
-    text-align: center;
-    margin-bottom:100px;
-}
 /*design-right*/
 .design-right{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0; 
 }
 .design-right:nth-child(odd) {
     flex-direction: row-reverse;
   }
 .image-right{
-    width:45%;
+    width: 80%;
     box-sizing: border-box;
     margin-left: 70px;
     box-shadow: 0 4px 15px 0 #adc5d8;
@@ -94,9 +89,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0; 
 }
 .design img{
-    width: 45%;
+    width: 80%;
     box-sizing: border-box;
     margin-right: 70px;
     box-shadow: 0 4px 15px 0 #adc5d8;
@@ -162,6 +158,10 @@ footer{
 .about-text h2{
     font-size:30px;     
     padding-bottom: 20px;   
+}
+.text-adjustment{
+    font-size: 20px;   
+    font-weight: bold;   
 }
 .about-wrapper img{
     width: 30%;
