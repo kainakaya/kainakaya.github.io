@@ -22,7 +22,7 @@
     }
      /* top */
      .section-top{
-        height: 800px;  
+        height: 750px;      
         width: 100%; 
     }
     .section-top img{
@@ -49,7 +49,7 @@
     flex-direction: column; 
     }
     .design img{
-    width: 100%;
+    width: 90%;      
     margin:0px 20px;
     }
     .design-text{
@@ -81,7 +81,7 @@
     flex-direction:column;
     }
     .image-right{
-    width:100%; 
+    width:90%;   
     box-sizing: border-box;
     float: left;
     margin:0px 20px;
@@ -111,9 +111,13 @@
         font-size:12px; 
     }
     .about-text h2{
-        font-size:30px;     
+        font-size:25px;     
         padding-bottom: 10px;   
     }
+    .text-adjustment{
+        font-size: 15px;     
+    }
+
     .about-wrapper img{
         width: 50%;
         margin:20px 0px 50px 90px;
@@ -285,73 +289,89 @@
         max-width: 700px;
     }
     /*//designall.html//*/
-
-    /*website*/
+    .website-all-container{
+        padding:20px 20px;
+    }
     .website-area{
-        max-width: 700px;
-        padding: 20px 20px;
+        display: flex;
+        flex-direction:column;
     }
     .websits{
-        display: flex;
-        flex-direction:column;
-        margin-bottom: 30px;
-    }
-    .website{
-        width: 90%;
+        box-sizing: border-box;
+        margin-bottom: 20px;    
     }
     .website img{
-        width: 100%;
+        width: 95%; 
     }
-    /*music artwork*/
-    .ma-all-wrapper{
-        margin-bottom: 30px;
+    
+    .ma-all-container{
+        padding:20px 20px;
     }
     .ma-area{
-        max-width: 700px;
-        padding: 20px 20px;
-        flex:auto;
-        flex-wrap:wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
     .mas{
-        width: 50%;
-    }
-    .ma{
-        width: 100%;     
-        margin-right: 25px;
+        box-sizing: border-box;
+        width: 50%; 
     }
     .ma img{
-        width: 100%; 
+        width: 90%;
     }
-    .ma-direction{
-        margin-left: 25px; 
-        padding: 0px 20px;
+    
+    .logo-all-container{
+        padding:20px 20px;
     }
-    /*logo*/
     .logo-area{
-        max-width: 700px;
-        padding: 20px 20px;
-        flex:auto;
-        flex-wrap:wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
     .logos{
-        display: flex;
-        flex-direction:column;
-        margin-bottom: 30px;
-        float: left;
-        width: 50%;
-    }
-    .logo{
-        width: 100%;
-        margin-right: 25px;
+        box-sizing: border-box;
+        width: 50%; 
     }
     .logo img{
-        width: 70%; 
+        width: 90%;
     }
-
+    .section-title{
+        font-size: 20px;     
+        color: #6c8ba2;
+        text-align: left;
+        font-style: bold;
+        padding: 10px 0;
+    }
+    .website-all-title{
+        padding:50px 20px;
+    }
+    .section-title-top{
+        font-size: 20px; 
+        color: #6c8ba2;
+        text-align: left;
+        font-style: bold;
+        padding-top: 50px;  
+    }
+    .design-name{   
+        font-size: 14px;    
+        color:rgb(73, 74, 80);
+        text-align: left;
+        padding-left:10px;
+    }
+    .design-tool{
+        color: rgb(149, 149, 149); 
+        text-align: left;
+        padding-left:10px;
+        padding-bottom: 13px;
+    }
+    .design-info{
+        color: rgb(149, 149, 149); 
+        text-align: left;
+        padding: 20px 10px;
+    }
+    
     /*共通*/
     .design-caption{
-        font-size: 35px;   
-        padding: 20px 20px; 
+        font-size: 30px;   
+        padding: 30px 20px;
         color: #6c8ba2;
         text-align: left;
         font-style: bold;
