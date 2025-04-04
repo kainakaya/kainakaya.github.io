@@ -382,4 +382,19 @@
     .design-color{
         color: rgb(255, 120, 58);
     }
+/*sweiper-toleft*/
+.about-slide{
+    font-size: 14px;
+}
+.loop-slide img{
+    width: 100%;
+    margin: 10px 10px;     
+}
+/*sweiper-toright*/
+
+.loop-slide-reverse img{
+    width: 100%;
+    margin: 10px 10px;   
+}
+
 }
