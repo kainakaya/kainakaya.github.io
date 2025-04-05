@@ -390,11 +390,17 @@
     width: 100%;
     margin: 10px 10px;     
 }
+.loop-slide > div > * {
+    min-width: calc(150% / 6);
+} 
 /*sweiper-toright*/
 
 .loop-slide-reverse img{
     width: 100%;
     margin: 10px 10px;   
 }
-
+.loop-slide-reverse > div > * {
+    min-width: calc(150% / 6);
+} 
+    
 }
