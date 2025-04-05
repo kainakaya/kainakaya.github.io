@@ -390,8 +390,8 @@ a:active {
     100% { transform: translateX(-100%) }
 }   
 .loop-slide img{
-    width: 50%;
-    margin: 20px 20px;   
+    width: 100%;
+    margin: 25px 20px;   
     box-shadow: 0 4px 15px 0 #adc5d8;
     border-radius: 10px;
 }
@@ -410,8 +410,8 @@ a:active {
     100% { transform: translateX(-100%) }
 }   
 .loop-slide-reverse img{
-    width: 50%;
-    margin: 20px 20px;   
+    width: 100%;
+    margin: 25px 20px;   
     box-shadow: 0 4px 15px 0 #adc5d8;
     border-radius: 10px; 
 }
