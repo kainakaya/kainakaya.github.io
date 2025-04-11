@@ -15,6 +15,9 @@ footer{
     width: 100%;
     color: #fff;
 }
+img{
+    pointer-events: none;
+}
 /*header*/
 .header-wrapper{
     padding: 0px 40px; 
